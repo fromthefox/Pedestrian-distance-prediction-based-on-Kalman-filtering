@@ -1,6 +1,6 @@
 import cv2
 
-def get_persons_pos(frame, cascade_classifier = cv2.CascadeClassifier('/Users/a111/Downloads/haarcascade_fullbody.xml')):
+def get_persons_pos(frame, cascade_classifier = cv2.CascadeClassifier('./haarcascade_fullbody.xml')):
     """
     获取帧画面里的所有行人的位置
     :param frame: 画面帧
